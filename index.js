@@ -14,8 +14,10 @@ function sayHiToGrandma(string) {
   if (string !== shout(string)) {
     return "I can't hear you!"
   }
-  if else (string === "I love you, Grandma.") {
+  else if (string === "I love you, Grandma.") {
     return "I love you,too"
   }
-  
+  else {
+    return "YES INDEED!"
+  }
 }
